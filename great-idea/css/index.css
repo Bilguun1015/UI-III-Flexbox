@@ -64,3 +64,253 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.navigation{
+	margin: 10px;
+	padding: 20px;
+	display: inline-block;
+	word-spacing: 55px;
+}
+.logo{
+	display: inline-block;
+}
+.header1 h1{
+	display: inline-block;
+	border: 2px solid white;
+	width: 280px;
+	vertical-align: middle;
+	text-align: center;
+	
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 20px 20;
+	font-size: 70px;
+}
+.header1 img{
+	display: inline-block;
+	vertical-align: middle;
+}
+button{
+	margin-left: 165px;
+	font-size: 25px;
+}
+hr{
+	margin-left: 30px;
+	width: 876px;
+}
+#par1{
+	width: 438px;
+	margin-left: 30px;
+	display: inline-block;
+}
+#par2{
+	width: 438px;
+	margin-left: 30px;
+	display: inline-block;
+	
+}
+.middle-img{
+	margin-left: 30px;
+	display: block;
+	
+}
+#par3{
+	width: 292px;
+	margin-left: 30px;
+	float: left;
+}
+#par4{
+	width: 292px;
+	margin-left: 30px;
+	float: left;
+}
+#par5{
+	width: 292px;
+	margin-left: 30px;
+	float: left;
+}
+
+/* Your code starts here! */
+
+ nav {
+  display: block;
+  width: 880px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 35px 31px 0 31px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: rgb(176, 177, 178);
+}
+
+nav a:first-child {
+  margin-left: 0;
+}
+
+nav div {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+img {
+  margin-top: 25px;
+}
+
+.website-wrapper {
+  width: 880px;
+  margin: 130px auto 0 auto;
+  z-index: 1;
+}
+
+header {
+  border-bottom: 1px solid black;
+  position: relative;
+  height: 490px;
+}
+
+header div {
+  display: inline-block;
+  text-align: center;
+  margin: 70px 0 0 85px;
+}
+
+header div h1 {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+header div h1 span {
+  display: block;
+}
+
+header div a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 4px 48px;
+}
+
+header img {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.section-one {
+  margin-top: 39px;
+}
+
+.section-one div {
+  width: 430px;
+  height: 100px;
+  display: inline-block;
+}
+
+.section-one div p {
+  line-height: 1.16;
+}
+
+.section-one div:first-child {
+  margin-right: 10px;
+}
+
+.middle-img {
+  margin-top: 38px;
+}
+
+.section-two {
+  border-bottom: 1px solid black;
+  margin-top: 36px;
+  padding-bottom: 47px;
+}
+
+.section-two div {
+  display: inline-block;
+  width: 280px;
+  margin-right: 10px;
+}
+
+.section-two div p {
+  line-height: 1.16;
+}
+
+address {
+  margin-top: 38px;
+}
+
+address div {
+  line-height: 1.16;
+}
+
+address div span {
+  display: inline-block;
+  margin: 17px 0 18px 0;
+}
+
+footer {
+  width: 100%;
+  height: 183px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 54px;
+  font-size: 14px;
+}
+.services-header-img {
+  display: flex;
+  width: 880px;
+  height: auto;
+  margin: auto;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.servicePageParagraphs {
+  display: flex;
+  width: 880px;
+  height: 850px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-evenly;
+}
+.otherParagraphs {
+  display: flex;
+  width: 420px;
+  height: 250px;
+  padding: 20px;
+  border: 1px solid black;
+  background: lightgrey;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-evenly;
+}
+.lastParagraph {
+  display: flex;
+  width: 880px;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.factsParagraph {
+  display: flex;
+  width: 420px;
+  height: 300px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-evenly;
+}
+.servicePageFooter {
+  display: flex;
+  flex-direction: column-reverse;
+}  
